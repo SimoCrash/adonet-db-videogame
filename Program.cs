@@ -30,4 +30,5 @@ catch(Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
-foreach (var videogame in videogames) Console.WriteLine(videogame.ToString());
+foreach (var videogame in videogames) Console.WriteLine(videogame);
+Console.WriteLine("Totale: "  + videogames.Count());

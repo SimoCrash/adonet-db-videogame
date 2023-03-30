@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace adonet_db_videogame
 {
-    public class Videogame
+    public record Videogame
     {
         public Videogame(long id, string name, DateTime realease_date, long softwareHouse)
         {
